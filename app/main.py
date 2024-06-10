@@ -29,6 +29,7 @@ def health_check():
 
 @app.get("/info")
 def info():
+    # teste
     return {'name': 'yt-search', 'description': "Search API for Shaw Talebi's YouTube videos."}
 
 @app.get("/search")
